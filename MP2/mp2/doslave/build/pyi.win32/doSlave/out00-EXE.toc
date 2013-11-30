@@ -1,0 +1,10 @@
+('Z:\\Software\\Script\\ming\\MP2\\src\\mp2\\doslave\\build\\pyi.win32\\doSlave\\doSlave.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ True,
+ 0,
+ 1372761336L)

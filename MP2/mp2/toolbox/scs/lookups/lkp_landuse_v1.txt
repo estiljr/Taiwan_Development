@@ -1,0 +1,16 @@
+Value	cover_type	Lkp_LU
+11	Row Crops	
+14	Row Crops	
+20	Row Crops	
+30	Woods-grass combination	Woods-grass combination (orchard), fair
+40	Woods	Woods, fair
+70	Woods	Woods, good
+130	Brush-weed-grass mixture	Brush-weed-grass mixture, poor
+140	Pasture, continuous grazing	Pasture, continuous grazing, poor
+150	Fallow	Fallow, crop residue (CR), poor
+160	Woods-grass combination	Woods-grass combination (orchard), fair
+170	Woods	Woods, fair
+180	Woods-grass combination	Woods-grass combination (orchard), fair
+190	Urban districts	Urban districts (industrial), 72% imperv.
+200	Fallow	Fallow (bare soil)
+210	N/A	

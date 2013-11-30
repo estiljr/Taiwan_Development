@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MP2", "MP2\MP2.pyproj", "{1B8138E2-5A16-4026-A272-E294B7A98C9E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GenerateFloodMap", "FloodMapper\GenerateFloodMap.pyproj", "{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8138E2-5A16-4026-A272-E294B7A98C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8138E2-5A16-4026-A272-E294B7A98C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8138E2-5A16-4026-A272-E294B7A98C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8138E2-5A16-4026-A272-E294B7A98C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

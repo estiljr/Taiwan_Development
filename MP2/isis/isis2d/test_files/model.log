@@ -1,0 +1,49 @@
+ INFO: No log file specified, using  C:\condor\execute\dir_8640\Model\Ha001_Cat0001_Dom010_200Yr_D_S_N\model.log
+Rainfall accumulation depth:   0.000100
+Negative depth threshold:  -0.001000
+Velocity head threshold for advection:   0.100000
+Depth threshold for friction increase:   0.100000
+Called get_shp_polygon_data on GIS\Active_Area.shp
+Called get_shx_idx on GIS\Active_Area.shx
+Called get_dbf_attr on GIS\Active_Area.dbf
+Called get_shp_type on GIS\Main_Inflow_002.shp
+Called get_shp_polyline_data on GIS\Main_Inflow_002.shp
+Called get_shx_idx on GIS\Main_Inflow_002.shx
+Called get_dbf_attr on GIS\Main_Inflow_002.dbf
+Called get_shp_type on GIS\Downstream_Level_001.shp
+Called get_shp_polyline_data on GIS\Downstream_Level_001.shp
+Called get_shx_idx on GIS\Downstream_Level_001.shx
+Called get_dbf_attr on GIS\Downstream_Level_001.dbf
+Called get_shp_type on GIS\Main_Inflow_001.shp
+Called get_shp_polyline_data on GIS\Main_Inflow_001.shp
+Called get_shx_idx on GIS\Main_Inflow_001.shx
+Called get_dbf_attr on GIS\Main_Inflow_001.dbf
+Resampling topography...
+Done.
+Resampling topography...
+Done.
+Called get_shp_type on GIS\Z_Polygons.shp
+Called get_shp_polygon_data on GIS\Z_Polygons.shp
+Called get_shx_idx on GIS\Z_Polygons.shx
+Called get_dbf_attr on GIS\Z_Polygons.dbf
+2D Domain initialised.
+Freeing reader at 137448520
+Done
+Done reading control file
+WARNING: Negative depth found at 327065.0 935555.0 in domain 1 at 180.0 seconds
+WARNING: This is the first and last negative depth warning
+Model converged with the following details:
+Present volume: 264712.3
+Volume at start of window: 264511.7
+Boundary inflow: 6.6
+Smallest inflow: 3.2
+Writing results at time of convergence
+Model successfully converged at 10.6 hours
+ Error opening file in write_sms_scalar_data: 
+ C:\condor\execute\dir_8640\Model\Ha001_Cat0001_Dom010_200Yr_D_S_N\model_01\01_h
+ azardClass.dat                                                                 
+                                           
+Warning: problem writing SMS dat file.
+Maximum Courant number seen:
+  Domain  1: 2.8
+Run completed in 317.5 seconds

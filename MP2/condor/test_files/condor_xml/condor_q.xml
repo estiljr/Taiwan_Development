@@ -1,0 +1,91 @@
+<c>
+    <a n="MyType"><s>Job</s></a>
+    <a n="TargetType"><s>Machine</s></a>
+    <a n="ClusterId"><i>106946</i></a>
+    <a n="QDate"><i>1385485143</i></a>
+    <a n="CompletionDate"><i>0</i></a>
+    <a n="Owner"><s>jiy</s></a>
+    <a n="NTDomain"><s>CH2MHILL</s></a>
+    <a n="WindowsMajorVersion"><i>6</i></a>
+    <a n="WindowsMinorVersion"><i>0</i></a>
+    <a n="WindowsBuildNumber"><i>6002</i></a>
+    <a n="WindowsServicePackMajorVersion"><i>2</i></a>
+    <a n="WindowsServicePackMinorVersion"><i>0</i></a>
+    <a n="WindowsProductType"><i>3</i></a>
+    <a n="RemoteWallClockTime"><r>0.000000000000000E+000</r></a>
+    <a n="LocalUserCpu"><r>0.000000000000000E+000</r></a>
+    <a n="LocalSysCpu"><r>0.000000000000000E+000</r></a>
+    <a n="RemoteUserCpu"><r>0.000000000000000E+000</r></a>
+    <a n="RemoteSysCpu"><r>0.000000000000000E+000</r></a>
+    <a n="ExitStatus"><i>0</i></a>
+    <a n="NumCkpts_RAW"><i>0</i></a>
+    <a n="NumCkpts"><i>0</i></a>
+    <a n="NumJobStarts"><i>0</i></a>
+    <a n="NumRestarts"><i>0</i></a>
+    <a n="NumSystemHolds"><i>0</i></a>
+    <a n="CommittedTime"><i>0</i></a>
+    <a n="TotalSuspensions"><i>0</i></a>
+    <a n="LastSuspensionTime"><i>0</i></a>
+    <a n="CumulativeSuspensionTime"><i>0</i></a>
+    <a n="ExitBySignal"><b v="f"/></a>
+    <a n="CondorVersion"><s>$CondorVersion: 7.4.4 Oct 13 2010 BuildID: 279383 $
+/s></a>
+    <a n="CondorPlatform"><s>$CondorPlatform: INTEL-WINNT50 $</s></a>
+    <a n="Iwd"><s>G:\test\condor</s></a>
+    <a n="JobUniverse"><i>5</i></a>
+    <a n="Cmd"><s>G:\test\condor\wait.exe</s></a>
+    <a n="MinHosts"><i>1</i></a>
+    <a n="MaxHosts"><i>1</i></a>
+    <a n="CurrentHosts"><i>0</i></a>
+    <a n="WantRemoteSyscalls"><b v="f"/></a>
+    <a n="WantCheckpoint"><b v="f"/></a>
+    <a n="RequestCpus"><i>1</i></a>
+    <a n="EnteredCurrentStatus"><i>1385485143</i></a>
+    <a n="JobPrio"><i>0</i></a>
+    <a n="User"><s>jiy@ch2m.com</s></a>
+    <a n="NiceUser"><b v="f"/></a>
+    <a n="Environment"><s></s></a>
+    <a n="JobNotification"><i>2</i></a>
+    <a n="WantRemoteIO"><b v="t"/></a>
+    <a n="UserLog"><s>G:\test\condor\wait.log</s></a>
+    <a n="CoreSize"><i>0</i></a>
+    <a n="Rank"><r>0.000000000000000E+000</r></a>
+    <a n="In"><s>/dev/null</s></a>
+    <a n="TransferIn"><b v="f"/></a>
+    <a n="Out"><s>wait.out</s></a>
+    <a n="StreamOut"><b v="f"/></a>
+    <a n="Err"><s>wait.err</s></a>
+    <a n="StreamErr"><b v="f"/></a>
+    <a n="BufferSize"><i>524288</i></a>
+    <a n="BufferBlockSize"><i>32768</i></a>
+    <a n="ShouldTransferFiles"><s>YES</s></a>
+    <a n="WhenToTransferOutput"><s>ON_EXIT</s></a>
+    <a n="TransferFiles"><s>ONEXIT</s></a>
+    <a n="TransferInput"><s>wait.exe,library.zip,python27.dll</s></a>
+    <a n="ImageSize_RAW"><i>19</i></a>
+    <a n="ImageSize"><i>20</i></a>
+    <a n="ExecutableSize_RAW"><i>19</i></a>
+    <a n="ExecutableSize"><i>20</i></a>
+    <a n="DiskUsage_RAW"><i>3808</i></a>
+    <a n="DiskUsage"><i>4000</i></a>
+    <a n="RequestMemory"><e>ceiling(ifThenElse(JobVMMemory =!= UNDEFINED, JobVMemory, ImageSize / 1024.000000))</e></a>
+    <a n="RequestDisk"><e>DiskUsage</e></a>
+    <a n="Requirements"><e>((Arch == "INTEL" &amp;&amp; OpSys == "WINNT61") ||
+Arch == "INTEL" &amp;&amp; OpSys == "WINNT52") || (Arch == "INTEL" &amp;&amp; O
+Sys == "WINNT51")) &amp;&amp; (Disk &gt;= DiskUsage) &amp;&amp; ((Memory * 1024
+ &gt;= ImageSize) &amp;&amp; ((RequestMemory * 1024) &gt;= ImageSize) &amp;&amp
+ (HasFileTransfer)</e></a>
+    <a n="JobLeaseDuration"><i>1200</i></a>
+    <a n="PeriodicHold"><b v="f"/></a>
+    <a n="PeriodicRelease"><b v="f"/></a>
+    <a n="PeriodicRemove"><b v="f"/></a>
+    <a n="OnExitHold"><b v="f"/></a>
+    <a n="OnExitRemove"><b v="t"/></a>
+    <a n="LeaveJobInQueue"><b v="f"/></a>
+    <a n="Arguments"><s>1000</s></a>
+    <a n="GlobalJobId"><s>SWIN-AS-20.amr.ch2m.com#106946.0#1385485143</s></a>
+    <a n="LastJobStatus"><i>0</i></a>
+    <a n="JobStatus"><i>1</i></a>
+    <a n="ProcId"><i>0</i></a>
+    <a n="ServerTime"><i>1385485145</i></a>
+</c>

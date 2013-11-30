@@ -1,0 +1,12 @@
+('Z:\\Software\\Script\\ming\\MP2\\src\\mp2\\doslave\\build\\pyi.win32\\doSlave\\out00-PKG.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1},
+ [('out00-PYZ.pyz', 'Z:\\Software\\Script\\ming\\MP2\\src\\mp2\\doslave\\build\\pyi.win32\\doSlave\\out00-PYZ.pyz', 'PYZ'), ('iu', 'z:\\Software\\Installers\\pyinstaller-2.0\\PyInstaller\\loader\\iu.pyc', 'PYMODULE'), ('struct', 'C:\\python27\\lib\\struct.pyc', 'PYMODULE'), ('archive', 'z:\\Software\\Installers\\pyinstaller-2.0\\PyInstaller\\loader\\archive.pyc', 'PYMODULE'), ('_pyi_bootstrap', 'z:\\Software\\Installers\\pyinstaller-2.0\\support\\_pyi_bootstrap.py', 'PYSOURCE'), ('carchive', 'z:\\Software\\Installers\\pyinstaller-2.0\\PyInstaller\\loader\\carchive.py', 'PYSOURCE'), ('pyi_rth_encodings', 'z:\\Software\\Installers\\pyinstaller-2.0\\support/rthooks/pyi_rth_encodings.py', 'PYSOURCE'), ('doSlave', 'doSlave.py', 'PYSOURCE'), ('doSlave.exe.manifest', 'Z:\\Software\\Script\\ming\\MP2\\src\\mp2\\doslave\\build\\pyi.win32\\doSlave\\doSlave.exe.manifest', 'BINARY')],
+ 1,
+ None,
+ True,
+ 0)

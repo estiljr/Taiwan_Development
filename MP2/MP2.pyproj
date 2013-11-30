@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1b8138e2-5a16-4026-a272-e294b7a98c9e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>mp2\toolbox\JE\GenerateFloodMap.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MP2</Name>
+    <RootNamespace>MP2</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>r"C:\temp\ISISMapper\xsection4_TIN.htn" r"C:\temp\ISISMapper\xsection4_.shp.csv" r"C:\temp\ISISMapper\dtm_pilot_taipei.asc" "1" r"C:\temp\ISISMapper"</CommandLineArguments>
+    <InterpreterPath />
+    <InterpreterArguments>
+    </InterpreterArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <InterpreterId>{ec9da8ce-918b-440d-b7c4-82e9541843ce}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="condor\" />
+    <Folder Include="condor\test_files\" />
+    <Folder Include="condor\test_files\condor_xml\" />
+    <Folder Include="condor\test_files\success_logs\" />
+    <Folder Include="isis\" />
+    <Folder Include="isis\isis1d\" />
+    <Folder Include="isis\isis1d\test_files\" />
+    <Folder Include="isis\isis2d\" />
+    <Folder Include="isis\isis2d\test_files\" />
+    <Folder Include="mp2\" />
+    <Folder Include="mp2\action\" />
+    <Folder Include="mp2\doslave\" />
+    <Folder Include="mp2\doslave\build\" />
+    <Folder Include="mp2\doslave\build\pyi.win32\" />
+    <Folder Include="mp2\doslave\build\pyi.win32\doSlave\" />
+    <Folder Include="mp2\doslave\dist\" />
+    <Folder Include="mp2\doslave\dist\doSlave\" />
+    <Folder Include="mp2\model\" />
+    <Folder Include="mp2\toolbox\" />
+    <Folder Include="mp2\toolbox\JE\" />
+    <Folder Include="mp2\toolbox\misc_files\" />
+    <Folder Include="mp2\toolbox\scs\" />
+    <Folder Include="mp2\toolbox\scs\arcpy\" />
+    <Folder Include="mp2\toolbox\scs\lookups\" />
+    <Folder Include="mp2\toolbox\sql\" />
+    <Folder Include="mp2\toolbox\x_section\" />
+    <Folder Include="mp2\workflow\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="condor\test_files\.job.ad" />
+    <Content Include="condor\test_files\.machine.ad" />
+    <Content Include="condor\test_files\condor_xml\condor_history.xml" />
+    <Content Include="condor\test_files\condor_xml\condor_q.xml" />
+    <Content Include="condor\test_files\condor_xml\condor_status.xml" />
+    <Content Include="condor\test_files\pyStderr_isis2d.txt" />
+    <Content Include="condor\test_files\pyStderr_isis_2d_to_asc.txt" />
+    <Content Include="condor\test_files\slave_cancelled.log" />
+    <Content Include="condor\test_files\slave_ctrl_c.log" />
+    <Content Include="condor\test_files\slave_issues.log" />
+    <Content Include="condor\test_files\slave_startrunning.log" />
+    <Content Include="condor\test_files\slave_submitted.log" />
+    <Content Include="condor\test_files\slave_successs.log" />
+    <Content Include="condor\test_files\success_logs\automation_error_log.txt" />
+    <Content Include="condor\test_files\success_logs\automation_log.txt" />
+    <Content Include="condor\test_files\success_logs\slave.err" />
+    <Content Include="condor\test_files\success_logs\slave.log" />
+    <Content Include="condor\test_files\success_logs\slave.out" />
+    <Content Include="isis\isis1d\test_files\boundary.feb" />
+    <Content Include="isis\isis1d\test_files\boundary.ied" />
+    <Content Include="isis\isis1d\test_files\boundary.iml" />
+    <Content Include="isis\isis1d\test_files\dom11.ief" />
+    <Content Include="isis\isis1d\test_files\t2.tcs" />
+    <Content Include="isis\isis1d\test_files\tro.tcs" />
+    <Content Include="isis\isis1d\test_files\TROTUS_2D2_2005_V2.csv" />
+    <Content Include="isis\isis1d\test_files\TROTUS_2D2_2005_V2.ivl" />
+    <Content Include="isis\isis1d\test_files\TROTUS_2D2_2005_V2.zzd" />
+    <Content Include="isis\isis1d\test_files\TROTUS_2D2_2005_V2.zzl" />
+    <Content Include="isis\isis1d\test_files\TROTUS_2D2_2005_V2.zzn" />
+    <Content Include="isis\isis1d\test_files\Trotus_v5_Tr2.DAT" />
+    <Content Include="isis\isis2d\export_datfiles.bat" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_2NoMB.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_adi_2_tvd.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_new.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_new1.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_noMB.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_none.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_none2.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_original.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_TVD.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_tvd_2_adi.xml" />
+    <Content Include="isis\isis2d\test_files\Ha001_Cat0001_Dom010_withMB.xml" />
+    <Content Include="isis\isis2d\test_files\MB.csv" />
+    <Content Include="isis\isis2d\test_files\model.log" />
+    <Content Include="mp2\doslave\build.bat" />
+    <Content Include="mp2\doslave\build\logdict2.7.2.final.0-1.log" />
+    <Content Include="mp2\doslave\build\logdict2.7.2.final.0-2.log" />
+    <Content Include="mp2\doslave\build\logdict2.7.3.final.0-1.log" />
+    <Content Include="mp2\doslave\build\logdict2.7.3.final.0-2.log" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\doSlave.exe" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\doSlave.exe.manifest" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-Analysis.toc" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-COLLECT.toc" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-EXE.toc" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-PKG.pkg" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-PKG.toc" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-PYZ.pyz" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\out00-PYZ.toc" />
+    <Content Include="mp2\doslave\build\pyi.win32\doSlave\warndoSlave.txt" />
+    <Content Include="mp2\doslave\build_halcrow.bat" />
+    <Content Include="mp2\doslave\dist\doSlave\bz2.pyd" />
+    <Content Include="mp2\doslave\dist\doSlave\doSlave.exe" />
+    <Content Include="mp2\doslave\dist\doSlave\doSlave.exe.manifest" />
+    <Content Include="mp2\doslave\dist\doSlave\Microsoft.VC90.CRT.manifest" />
+    <Content Include="mp2\doslave\dist\doSlave\msvcm90.dll" />
+    <Content Include="mp2\doslave\dist\doSlave\msvcp90.dll" />
+    <Content Include="mp2\doslave\dist\doSlave\msvcr90.dll" />
+    <Content Include="mp2\doslave\dist\doSlave\python27.dll" />
+    <Content Include="mp2\doslave\dist\doSlave\select.pyd" />
+    <Content Include="mp2\doslave\dist\doSlave\unicodedata.pyd" />
+    <Content Include="mp2\doslave\dist\doSlave\_hashlib.pyd" />
+    <Content Include="mp2\doslave\doSlave.spec" />
+    <Content Include="mp2\toolbox\JE\ISIS2DXMLSchema.xsd" />
+    <Content Include="mp2\toolbox\misc_files\BNG.prj" />
+    <Content Include="mp2\toolbox\scs\Distribution_of_flow_ratio.png" />
+    <Content Include="mp2\toolbox\scs\flow_diff.csv" />
+    <Content Include="mp2\toolbox\scs\flow_diff_subplots.png" />
+    <Content Include="mp2\toolbox\scs\lookups\lkp_cn_v1.txt" />
+    <Content Include="mp2\toolbox\scs\lookups\lkp_landuse_v0.csv" />
+    <Content Include="mp2\toolbox\scs\lookups\lkp_landuse_v1.csv" />
+    <Content Include="mp2\toolbox\scs\lookups\lkp_landuse_v1.txt" />
+    <Content Include="mp2\toolbox\scs\lookups\lkp_soil_v1.csv" />
+    <Content Include="mp2\toolbox\scs\lookups\lkp_soil_v2.csv" />
+    <Content Include="mp2\toolbox\scs\StartOSGeo4W.bat" />
+    <Content Include="mp2\toolbox\sql\boundary.sql" />
+    <Content Include="mp2\toolbox\sql\condor.sql" />
+    <Content Include="mp2\toolbox\sql\cross-section.sql" />
+    <Content Include="mp2\toolbox\sql\domain.sql" />
+    <Content Include="mp2\toolbox\sql\gauge.sql" />
+    <Content Include="mp2\toolbox\sql\modeller_log.sql" />
+    <Content Include="mp2\toolbox\sql\run.sql" />
+    <Content Include="mp2\toolbox\sql\run_archive.sql" />
+    <Content Include="mp2\toolbox\sql\scenario.sql" />
+    <Content Include="mp2\toolbox\sql\z_n_mod.sql" />
+    <Content Include="mp2\toolbox\sql\z_n_mod_v0.sql" />
+    <Content Include="mp2\workflow\setting.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="condor\condor.py" />
+    <Compile Include="condor\condor_test.py" />
+    <Compile Include="condor\__init__.py" />
+    <Compile Include="isis\isis1d\ied.py" />
+    <Compile Include="isis\isis1d\ief.py" />
+    <Compile Include="isis\isis1d\tcs.py" />
+    <Compile Include="isis\isis1d\__init__.py" />
+    <Compile Include="isis\isis2d\autoQA.py" />
+    <Compile Include="isis\isis2d\isis2d_log.py" />
+    <Compile Include="isis\isis2d\massBalance.py" />
+    <Compile Include="isis\isis2d\modelXML.py" />
+    <Compile Include="isis\isis2d\modelXML_Test.py" />
+    <Compile Include="isis\isis2d\timeStep.py" />
+    <Compile Include="isis\isis2d\__init__.py" />
+    <Compile Include="mp2\action\openRunFolder.py" />
+    <Compile Include="mp2\action\__init__.py" />
+    <Compile Include="mp2\doslave\doSlave.py" />
+    <Compile Include="mp2\doslave\doSlave_adv.py" />
+    <Compile Include="mp2\doslave\__init__.py" />
+    <Compile Include="mp2\model\db.py" />
+    <Compile Include="mp2\model\run.py" />
+    <Compile Include="mp2\model\__init__.py" />
+    <Compile Include="mp2\toolbox\JE\Archive_model.py" />
+    <Compile Include="mp2\toolbox\JE\GenerateFloodMap.py" />
+    <Compile Include="mp2\toolbox\scs\arcpy\zonal_slope_rainfall.py" />
+    <Compile Include="mp2\toolbox\scs\data_setup.py" />
+    <Compile Include="mp2\toolbox\scs\post_process_isis_hydrology_results.py" />
+    <Compile Include="mp2\toolbox\scs\prepare_input_for_isisHydrology.py" />
+    <Compile Include="mp2\toolbox\x_section\crossSection.py" />
+    <Compile Include="mp2\toolbox\__init__.py" />
+    <Compile Include="mp2\workflow\setup.py" />
+    <Compile Include="mp2\workflow\updateCondorStatus.py" />
+    <Compile Include="mp2\workflow\__init__.py" />
+    <Compile Include="mp2\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{ec9da8ce-918b-440d-b7c4-82e9541843ce}\2.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

@@ -1,0 +1,81 @@
+landuse	A	B	C	D
+Fallow (bare soil)	77	86	91	94
+Fallow, crop residue (CR), poor	76	85	90	93
+Fallow (CR), good	74	83	88	90
+Row Crops, straight row (SR), poor	72	81	88	91
+Row Crops (SR), good	67	78	85	89
+Row Crops (SR&CR), poor	71	80	87	90
+Row Crops (SR&CR), good	64	75	82	85
+Row Crops, contoured (C), poor	70	79	84	88
+Row Crops (C), good	65	75	82	86
+Row Crops (C&CR), poor	69	78	83	87
+Row Crops (C&CR), good	64	74	81	85
+Row Crops, contoured and terraced (C&T), poor	66	74	80	82
+Row Crops (C&T), good	62	71	78	81
+Row Crops (C&T + CR), poor	65	73	79	81
+Row Crops (C&T + CR), good	61	70	77	80
+Small Grain (SR), poor	65	76	84	88
+Small Grain (SR), good	63	75	83	87
+Small Grain (SR&CR), poor	64	75	83	86
+Small Grain (SR&CR), good	60	72	80	84
+Small Grain (C), poor	63	74	82	85
+Small Grain (C), good	61	73	81	84
+Small Grain (C&CR), poor	62	73	81	84
+Small Grain (C&CR), good	60	72	80	83
+Small Grain (C&T), poor	61	72	79	82
+Small Grain (C&T), good	59	70	78	81
+Small Grain (C&T + CR), poor	60	71	78	81
+Small Grain (C&T + CR), good	58	69	77	80
+Rotation meadow or legumes (SR), poor	66	77	85	89
+Rotation meadow or legumes (SR), good	58	72	81	85
+Rotation meadow or legumes (C), poor	64	75	83	85
+Rotation meadow or legumes (C), good	55	69	78	83
+Rotation meadow or legumes (C&T), poor	63	73	80	83
+Rotation meadow or legumes (C&T), good	51	67	76	80
+Pasture, continuous grazing, poor	68	79	86	89
+Pasture, continuous grazing, fair	49	69	79	84
+Pasture, continuous grazing, good	39	61	74	80
+Meadow, non-grazed	30	58	71	78
+Brush-weed-grass mixture, poor	48	67	77	83
+Brush-weed-grass mixture, fair	35	56	70	77
+Brush-weed-grass mixture, good	30	48	65	73
+Woods-grass combination (orchard), poor	57	73	82	86
+Woods-grass combination (orchard), fair	43	65	76	82
+Woods-grass combination (orchard), good	32	58	72	79
+Woods, poor	45	66	77	83
+Woods, fair	36	60	73	79
+Woods, good	30	55	70	77
+Farmsteads - buildings, lanes, driveways, lots	59	74	82	86
+Open space (lawns, etc), grass cover <50%	68	79	86	89
+Open space (lawns, etc), grass cover 50 to 75%	49	69	79	84
+Open space (lawns, etc), grass cover >75%	39	61	74	80
+Pavement, roofs, driveways, etc.	98	98	98	98
+Roads (paved) with open ditches 	83	89	92	93
+Roads (gravel) 	76	85	89	91
+Roads (dirt)	72	82	87	89
+Natural desert landscaping (pervious areas only)	63	77	85	88
+Artificial desert landscaping (impervious weed	96	96	96	96
+Urban districts (commercial and business), 85% imperv.	89	92	94	95
+Urban districts (industrial), 72% imperv.	81	88	91	93
+Residential lots, 1/8 acre or less (town houses), 65% imperv.	77	85	90	92
+Residential lots, 1/4 acre, 38% imperv.	61	75	83	87
+Residential lots, 1/3 acre, 30% imperv.	57	72	81	86
+Residential lots, 1/2 acre, 25% imperv.	54	70	80	85
+Residential lots, 1 acre, 20% imperv.	51	68	79	84
+Residential lots, 2 acres, 12% imperv.	46	65	77	82
+Newly graded areas (developing urban), no vegetation	77	86	91	94
+Arid rangeland (hebaceous), poor		80	87	93
+Arid rangeland (hebaceous), fair		71	81	89
+Arid rangeland (hebaceous), good		62	74	85
+Arid rangeland (Oak-aspen-mountain brush), poor		66	74	79
+Arid rangeland (Oak-aspen-mountain brush), fair		48	57	63
+Arid rangeland (Oak-aspen-mountain brush), good		30	41	48
+Arid rangeland (Pinyon-juniper), poor		75	85	89
+Arid rangeland (Pinyon-juniper), fair		58	73	80
+Arid rangeland (Pinyon-juniper), good		41	61	71
+Arid rangeland (Sagebrush with grass understory), poor		67	80	85
+Arid rangeland (Sagebrush with grass understory), fair		51	63	70
+Arid rangeland (Sagebrush with grass understory), good		35	47	55
+Arid rangeland (Desert shrub), poor	63	77	85	88
+Arid rangeland (Desert shrub), fair	55	72	81	86
+Arid rangeland (Desert shrub), good	49	68	79	84

@@ -1,0 +1,112 @@
+<ISIS2Dproject xmlns="http://www.halcrow.com/ISIS2D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.halcrow.com/ISIS2D ISIS2DXMLSchema.xsd" name="SEPA National Fluvial Modelling">
+  <domain domain_id="Ha001_Cat0001_Dom010">
+    <computational_area>
+      <xll>325470.0</xll>
+      <yll>935290.0</yll>
+      <dx>10.0</dx>
+      <nrows>510</nrows>
+      <ncols>229</ncols>
+      <active_area>GIS\Active_Area.shp</active_area>
+    </computational_area>
+    <topography>GIS\topo\nd23ne.asc</topography>
+    <topography>GIS\topo\nd24se.asc</topography>
+    <topography>GIS\Z_Polygons.shp</topography>
+    <time>
+      <start_time>00:00:00</start_time>
+      <start_date>1/1/2000</start_date>
+      <total unit="hour">100</total>
+    </time>
+    <run_data>
+      <time_step>5.0</time_step>
+      <scheme>ADI</scheme>
+    </run_data>
+    <initial_conditions type="elevationfile">GIS\iwl.asc</initial_conditions>
+    <roughness law="manning" type="global">0.05</roughness>
+    <roughness law="manning" type="file">GIS\roughness\nd23ne.asc</roughness>
+    <roughness law="manning" type="file">GIS\roughness\nd24se.asc</roughness>
+    <roughness law="manning" type="globalmultiplier">1.4</roughness>
+    <boundary_conditions>
+      <boundary>
+        <BC>verticalflow</BC>
+        <file>GIS\Main_Inflow_002.shp</file>
+        <value type="timevar" time_units="hour">0	0
+0.5	3.44287999899
+9999	3.44287999899
+</value>
+      </boundary>
+      <boundary>
+        <BC>waterelevation</BC>
+        <file>GIS\Downstream_Level_001.shp</file>
+        <value type="fixedvalue">1.79</value>
+      </boundary>
+      <boundary>
+        <BC>verticalflow</BC>
+        <file>GIS\Main_Inflow_001.shp</file>
+        <value type="timevar" time_units="hour">0	0
+0.5	3.17343796288
+9999	3.17343796288
+</value>
+      </boundary>
+    </boundary_conditions>
+    <output_results>
+      <hazard_debris_factor_method>
+        <static factor="0.0"/>
+      </hazard_debris_factor_method>
+      <output output_id="" format="SMS9">
+        <variables>
+          Depth
+          Elevation
+          Velocity
+          Hazard
+          Froude
+        </variables>
+        <frequency>3600.0</frequency>
+      </output>
+      <massfile frequency="60">MB.csv</massfile>
+      <check>true</check>
+    </output_results>
+  </domain>
+  <advanced_options>
+    <number_of_threads>1</number_of_threads>
+    <!-- <wet_boundary>error</wet_boundary> -->
+    <correct_negative_depths/>
+    <!-- BEWARE: check_after_seconds is an INTEGER variable -->
+    <stop_on_convergence fail_on_non_convergence="true">
+      <!--
+            window_size:
+                The gap of time at which values are compared at either 
+                end, e.g. 60 mins
+            
+            Averages of domain volume are made at the start and end of 
+            the inspection window:
+                volStart = AVERAGE(v@t=now, v@t=now-3mins, v@t=now-6mins.... .... v@t=now-12mins) (7 samples)
+                volEnd = AVERAGE(v@t=now-1hr, v@t=now-1hr-3mins ... v@t=now-1hr-12mins) (another 7 samples)
+            
+            The difference in the averaged volumes (vDiff = volEnd - volStart)
+            is compared with at least one of three possible criteria:
+            
+            1) vDiff < volume_comparison_percentage of domain volume
+            2) vDiff < total_inflow_comparison_percentage of current total inflow
+            3) vDiff < smallest_inflow_comparison_percentage of smallest inflow
+            
+            If all criteria specified are met - the model is deemed to 
+            have converged
+            
+            minimum_run_time:
+                The minimum amount of time to run the model before 
+                checking convergence.  Must be larger than window_size
+                + 18mins
+                
+            fail_on_non_convergence:
+                If true, model will return an error code when the 
+                simulation end time is reached and the model has not 
+                converged.  
+        -->
+      <volume_comparison_percentage>1.0</volume_comparison_percentage>
+      <total_inflow_comparison_percentage>1.0</total_inflow_comparison_percentage>
+      <smallest_inflow_comparison_percentage>67.0</smallest_inflow_comparison_percentage>
+      <minimum_run_time unit="hour">3</minimum_run_time>
+      <window_size unit="hour">1</window_size>
+    </stop_on_convergence>
+  </advanced_options>
+</ISIS2Dproject>

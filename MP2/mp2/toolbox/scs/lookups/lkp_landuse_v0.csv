@@ -1,0 +1,16 @@
+Value,Label,CDID,CTID,CTText,TID,Ttext,HCID,HCText
+11,Post-flooding or irrigated croplands (or aquatic),,RC,Row crops,,,G,Good
+14,Rainfed croplands,,RC,Row crops,,,G,Good
+20,Mosaic cropland (50-70%) / vegetation (grassland/shrubland/forest) (20-50%),,RC,Row crops,,,G,Good
+30,Mosaic vegetation (grassland/shrubland/forest) (50-70%) / cropland (20-50%) ,WGC_N/A_F,WGC,Wood-grass combination (orchard or tree farm),N/A,N/A,F,Fair
+40,Closed to open (>15%) broadleaved evergreen or semi-deciduous forest (>5m),W_N/A_F,W,Woods,N/A,N/A,F,Fair
+70,Closed (>40%) needleleaved evergreen forest (>5m),W_N/A_G,W,Woods,N/A,N/A,G,Good
+130,"Closed to open (>15%) (broadleaved or needleleaved, evergreen or deciduous) shrubland (<5m)",BBF_N/A_P,BBF,Brush-brush-forbs-grass mixture with brush the major element,N/A,N/A,P,Poor
+140,"Closed to open (>15%) herbaceous vegetation (grassland, savannas or lichens/mosses)",PGR_N/A_P,PGR,"Pasture, grassland, or range-continuous forage for grazing",N/A,N/A,P,Poor
+150,Sparse (<15%) vegetation,F_CR_P,F,Fallow,CR,Crop residual cover,P,Poor
+160,Closed to open (>15%) broadleaved forest regularly flooded (semi-permanently or temporarily) - Fresh or brackish water,WGC_N/A_F,WGC,Wood-grass combination (orchard or tree farm),N/A,N/A,F,Fair
+170,Closed (>40%) broadleaved forest or shrubland permanently flooded - Saline or brackish water,W_N/A_F,W,Woods,N/A,N/A,F,Fair
+180,"Closed to open (>15%) grassland or woody vegetation on regularly flooded or waterlogged soil - Fresh, brackish or saline water",WGC_N/A_F,WGC,Wood-grass combination (orchard or tree farm),N/A,N/A,F,Fair
+190,Artificial surfaces and associated areas (Urban areas >50%),UDI_N/A_72,UDI,Urban district: Industrial,N/A,N/A,72,72
+200,Bare areas,F_BS_N/A,F,Fallow,BS,Bare soil,N/A,N/A
+210,Water bodies,N/A_N/A_N/A,N/A,N/A,N/A,N/A,N/A,N/A

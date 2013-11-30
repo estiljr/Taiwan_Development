@@ -1,0 +1,11 @@
+[ISIS Event Header]
+datafile = P:\Siret\ISIS2D\Trotus2\1D\Trotus_v5_Tr2.DAT
+results = P:\Siret\ISIS2D\Trotus2\1D\TROTUS_2D2_10yr_v2
+
+[ISIS Event Details]
+runtype = Unsteady
+start = 0
+finish = 250
+timestep = 5
+saveinterval = 3600
+

@@ -1,0 +1,14 @@
+28/11/2013 03:34:30 - mp2 - DEBUG - debug message
+28/11/2013 03:34:30 - mp2 - INFO - info message
+28/11/2013 03:34:30 - mp2 - WARNING - warn message
+28/11/2013 03:34:30 - mp2 - ERROR - error message
+28/11/2013 03:34:30 - mp2 - CRITICAL - critical message
+28/11/2013 03:34:30 - mp2.read_config - INFO - Starting -read_config
+28/11/2013 03:34:30 - mp2.read_config - INFO - ('C:\\Projects\\FM_Global\\Taiwan_Development\\MP2\\mp2\\workflow\\setting.cfg',)
+28/11/2013 03:34:45 - mp2 - DEBUG - debug message
+28/11/2013 03:34:45 - mp2 - INFO - info message
+28/11/2013 03:34:45 - mp2 - WARNING - warn message
+28/11/2013 03:34:45 - mp2 - ERROR - error message
+28/11/2013 03:34:45 - mp2 - CRITICAL - critical message
+28/11/2013 03:34:45 - mp2.read_config - INFO - Starting -read_config
+28/11/2013 03:34:45 - mp2.read_config - INFO - ('C:\\Projects\\FM_Global\\Taiwan_Development\\MP2\\mp2\\workflow\\setting.cfg',)

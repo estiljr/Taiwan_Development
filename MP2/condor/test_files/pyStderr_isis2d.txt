@@ -1,0 +1,2612 @@
+ISIS 2D v3.6.0.121106 ¸ Halcrow Group Ltd 2012
+Checking for ISIS 2D licence...
+ISIS 2D TVD licence found.
+Using input file: C:\condor\execute\dir_8640\Model\Ha001_Cat0001_Dom010_200Yr_D_S_N\model.xml
+ INFO: No log file specified, using  C:\condor\execute\dir_8640\Model\Ha001_Cat0001_Dom010_200Yr_D_S_N\model.log                                                                                                                                                
+Processing domain id  1 - Ha001_Cat0001_Dom010
+Rainfall accumulation depth:   0.000100                                                                                                                                                                                                                                                      
+Negative depth threshold:  -0.001000                                                                                                                                                                                                                                                      
+Velocity head threshold for advection:   0.100000                                                                                                                                                                                                                                                      
+Depth threshold for friction increase:   0.100000                                                                                                                                                                                                                                                      
+Called get_shp_polygon_data on GIS\Active_Area.shp
+Called get_shx_idx on GIS\Active_Area.shx
+Called get_dbf_attr on GIS\Active_Area.dbf
+Called get_shp_type on GIS\Main_Inflow_002.shp
+Called get_shp_polyline_data on GIS\Main_Inflow_002.shp
+Called get_shx_idx on GIS\Main_Inflow_002.shx
+Called get_dbf_attr on GIS\Main_Inflow_002.dbf
+Called get_shp_type on GIS\Downstream_Level_001.shp
+Called get_shp_polyline_data on GIS\Downstream_Level_001.shp
+Called get_shx_idx on GIS\Downstream_Level_001.shx
+Called get_dbf_attr on GIS\Downstream_Level_001.dbf
+Called get_shp_type on GIS\Main_Inflow_001.shp
+Called get_shp_polyline_data on GIS\Main_Inflow_001.shp
+Called get_shx_idx on GIS\Main_Inflow_001.shx
+Called get_dbf_attr on GIS\Main_Inflow_001.dbf
+Resampling topography...
+Done.
+Resampling topography...
+Done.
+Called get_shp_type on GIS\Z_Polygons.shp
+Called get_shp_polygon_data on GIS\Z_Polygons.shp
+Called get_shx_idx on GIS\Z_Polygons.shx
+Called get_dbf_attr on GIS\Z_Polygons.dbf
+2D Domain initialised.
+Freeing reader at 137448520                                                                                                                                                                                                                                     
+Done
+Done reading control file
+Domain  1: Wet=           0 Q->1D=      0.
+ Q BC->2D      0. Q BC<-2D      0.
+2D dV/dt=   2592. 2D V=  0.16E+06 Qe=   2592.
+ 
+Domain  1: Wet=        5142 Q->1D=      0.
+ Q BC->2D      0. Q BC<-2D      1.
+2D dV/dt=   -319. 2D V=  0.14E+06 Qe=   -317.
+ 
+Domain  1: Wet=        5159 Q->1D=      0.
+ Q BC->2D      0. Q BC<-2D      3.
+2D dV/dt=    -67. 2D V=  0.13E+06 Qe=    -65.
+ 
+WARNING: Negative depth found at 327065.0 935555.0 in domain 1 at 180.0 seconds
+WARNING: This is the first and last negative depth warning
+Domain  1: Wet=        5163 Q->1D=      0.
+ Q BC->2D      1. Q BC<-2D      0.
+2D dV/dt=      0. 2D V=  0.13E+06 Qe=      0.
+ 
+Domain  1: Wet=        5171 Q->1D=      0.
+ Q BC->2D      1. Q BC<-2D      1.
+2D dV/dt=     -1. 2D V=  0.13E+06 Qe=      0.
+ 
+Domain  1: Wet=        5165 Q->1D=      0.
+ Q BC->2D      1. Q BC<-2D      1.
+2D dV/dt=      0. 2D V=  0.13E+06 Qe=      0.
+ 
+Domain  1: Wet=        5182 Q->1D=      0.
+ Q BC->2D      1. Q BC<-2D      1.
+2D dV/dt=     65. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5171 Q->1D=      0.
+ Q BC->2D      1. Q BC<-2D      1.
+2D dV/dt=      0. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5172 Q->1D=      0.
+ Q BC->2D      2. Q BC<-2D      1.
+2D dV/dt=    -64. 2D V=  0.13E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5171 Q->1D=      0.
+ Q BC->2D      2. Q BC<-2D      2.
+2D dV/dt=     65. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5173 Q->1D=      0.
+ Q BC->2D      2. Q BC<-2D      1.
+2D dV/dt=    -64. 2D V=  0.13E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5163 Q->1D=      0.
+ Q BC->2D      2. Q BC<-2D      1.
+2D dV/dt=     66. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5177 Q->1D=      0.
+ Q BC->2D      3. Q BC<-2D      1.
+2D dV/dt=      1. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5164 Q->1D=      0.
+ Q BC->2D      3. Q BC<-2D      1.
+2D dV/dt=    -64. 2D V=  0.13E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5196 Q->1D=      0.
+ Q BC->2D      3. Q BC<-2D      1.
+2D dV/dt=     67. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5195 Q->1D=      0.
+ Q BC->2D      3. Q BC<-2D      1.
+2D dV/dt=      2. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5197 Q->1D=      0.
+ Q BC->2D      3. Q BC<-2D      1.
+2D dV/dt=    -63. 2D V=  0.13E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5216 Q->1D=      0.
+ Q BC->2D      4. Q BC<-2D      1.
+2D dV/dt=      3. 2D V=  0.13E+06 Qe=      0.
+ 
+Domain  1: Wet=        5205 Q->1D=      0.
+ Q BC->2D      4. Q BC<-2D      1.
+2D dV/dt=      2. 2D V=  0.13E+06 Qe=      0.
+ 
+Domain  1: Wet=        5207 Q->1D=      0.
+ Q BC->2D      4. Q BC<-2D      1.
+2D dV/dt=      3. 2D V=  0.13E+06 Qe=      0.
+ 
+Domain  1: Wet=        5214 Q->1D=      0.
+ Q BC->2D      4. Q BC<-2D      1.
+2D dV/dt=     68. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5210 Q->1D=      0.
+ Q BC->2D      5. Q BC<-2D      1.
+2D dV/dt=      3. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5201 Q->1D=      0.
+ Q BC->2D      5. Q BC<-2D      1.
+2D dV/dt=      3. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5209 Q->1D=      0.
+ Q BC->2D      5. Q BC<-2D      1.
+2D dV/dt=      4. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5224 Q->1D=      0.
+ Q BC->2D      5. Q BC<-2D      1.
+2D dV/dt=      4. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5221 Q->1D=      0.
+ Q BC->2D      5. Q BC<-2D      2.
+2D dV/dt=      3. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5222 Q->1D=      0.
+ Q BC->2D      6. Q BC<-2D      1.
+2D dV/dt=    -61. 2D V=  0.14E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5224 Q->1D=      0.
+ Q BC->2D      6. Q BC<-2D      1.
+2D dV/dt=     70. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5235 Q->1D=      0.
+ Q BC->2D      6. Q BC<-2D      1.
+2D dV/dt=    -60. 2D V=  0.14E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5222 Q->1D=      0.
+ Q BC->2D      6. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5228 Q->1D=      0.
+ Q BC->2D      6. Q BC<-2D      1.
+2D dV/dt=     71. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5248 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=    -59. 2D V=  0.14E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5243 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5232 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5230 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5228 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5234 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5244 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5282 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=    -59. 2D V=  0.14E+06 Qe=    -64.
+ 
+Domain  1: Wet=        5277 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=     67. 2D V=  0.14E+06 Qe=     62.
+ 
+Domain  1: Wet=        5284 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      9. 2D V=  0.14E+06 Qe=      3.
+ 
+Domain  1: Wet=        5309 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5298 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5327 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=    -59. 2D V=  0.14E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5344 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.14E+06 Qe=     65.
+ 
+Domain  1: Wet=        5334 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5336 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5356 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=    -60. 2D V=  0.14E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5368 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5374 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=     71. 2D V=  0.15E+06 Qe=     65.
+ 
+Domain  1: Wet=        5375 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5391 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5387 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5391 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5402 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5422 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=    -59. 2D V=  0.14E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5420 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.14E+06 Qe=      0.
+ 
+Domain  1: Wet=        5405 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.15E+06 Qe=     65.
+ 
+Domain  1: Wet=        5411 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      3. 2D V=  0.15E+06 Qe=     -3.
+ 
+Domain  1: Wet=        5416 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      8. 2D V=  0.15E+06 Qe=      3.
+ 
+Domain  1: Wet=        5413 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5437 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5440 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5445 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5473 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5472 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5482 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5503 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.15E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5503 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5494 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=     70. 2D V=  0.15E+06 Qe=     65.
+ 
+Domain  1: Wet=        5519 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5528 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.15E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5510 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.15E+06 Qe=     65.
+ 
+Domain  1: Wet=        5525 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5531 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5553 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5558 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5557 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.15E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5561 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.15E+06 Qe=     65.
+ 
+Domain  1: Wet=        5572 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5570 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5568 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.15E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5574 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=     71. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5594 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.15E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5622 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5620 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.15E+06 Qe=      0.
+ 
+Domain  1: Wet=        5621 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5653 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      1.
+ 
+Domain  1: Wet=        5623 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.16E+06 Qe=     -1.
+ 
+Domain  1: Wet=        5630 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.15E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5628 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5630 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5623 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5640 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5647 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      0.
+2D dV/dt=     68. 2D V=  0.16E+06 Qe=     62.
+ 
+Domain  1: Wet=        5659 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      8. 2D V=  0.16E+06 Qe=      3.
+ 
+Domain  1: Wet=        5659 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5664 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5685 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5685 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5680 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5704 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5717 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5725 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5730 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5750 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5768 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5763 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5765 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5773 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5767 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5782 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      6. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5786 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5789 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.16E+06 Qe=     65.
+ 
+Domain  1: Wet=        5793 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5799 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5810 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5815 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5803 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5812 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5803 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5809 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5824 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.16E+06 Qe=      0.
+ 
+Domain  1: Wet=        5823 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=     70. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5829 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5843 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5839 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.16E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5858 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5850 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      2. 2D V=  0.17E+06 Qe=     -3.
+ 
+Domain  1: Wet=        5879 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      7. 2D V=  0.17E+06 Qe=      3.
+ 
+Domain  1: Wet=        5880 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5884 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5890 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5898 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5890 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5897 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5898 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5900 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5898 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5881 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5880 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5894 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5872 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5907 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.17E+06 Qe=    -64.
+ 
+Domain  1: Wet=        5921 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5931 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5921 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.17E+06 Qe=     64.
+ 
+Domain  1: Wet=        5924 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -61. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5913 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.17E+06 Qe=     65.
+ 
+Domain  1: Wet=        5940 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5927 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5959 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.17E+06 Qe=    -64.
+ 
+Domain  1: Wet=        5967 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        5971 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        5966 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        5975 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        5974 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        5956 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -62. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5985 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5980 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5972 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.17E+06 Qe=      0.
+ 
+Domain  1: Wet=        5970 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        5983 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        5966 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        5976 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5997 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        5989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.17E+06 Qe=    -65.
+ 
+Domain  1: Wet=        5982 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6011 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6007 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -61. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6028 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6012 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -61. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6023 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6048 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6059 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6044 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -61. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6040 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6055 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6050 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6069 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6058 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6071 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6068 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6084 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6084 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      5. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6081 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      1.
+2D dV/dt=      5. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6087 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6100 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6097 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6103 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.18E+06 Qe=     65.
+ 
+Domain  1: Wet=        6097 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6105 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6116 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6120 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6132 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6143 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6157 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6151 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6160 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.18E+06 Qe=      0.
+ 
+Domain  1: Wet=        6168 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6169 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6179 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6192 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -60. 2D V=  0.18E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6203 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6221 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6237 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6231 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6247 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6262 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6273 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6303 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6310 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6317 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6330 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     70. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6342 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -61. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6348 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6351 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6349 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6365 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6376 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6390 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6398 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6399 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6404 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6423 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6432 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6436 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6444 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6427 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6446 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6458 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.19E+06 Qe=     65.
+ 
+Domain  1: Wet=        6459 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6477 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6465 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6481 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6491 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -60. 2D V=  0.19E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6475 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6513 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6514 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6506 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6521 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6533 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -60. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6524 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6554 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.19E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6544 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6551 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.19E+06 Qe=      0.
+ 
+Domain  1: Wet=        6554 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6553 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -62. 2D V=  0.19E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6577 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6570 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6573 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6574 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6591 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6592 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6585 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6606 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6612 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6604 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6616 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6624 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6619 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6621 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6627 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6635 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=     69. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6623 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6640 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6647 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6651 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6644 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6662 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6666 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6659 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -62. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6686 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      1.
+ 
+Domain  1: Wet=        6684 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6670 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     67. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6679 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6684 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6696 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6690 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6712 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.20E+06 Qe=     65.
+ 
+Domain  1: Wet=        6719 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6722 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6712 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6702 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6716 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6710 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6735 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.21E+06 Qe=     66.
+ 
+Domain  1: Wet=        6727 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6733 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=    -61. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6743 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6737 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6754 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6744 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6744 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6750 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6759 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6752 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6782 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.20E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6769 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.20E+06 Qe=      0.
+ 
+Domain  1: Wet=        6749 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.20E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6773 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     67. 2D V=  0.21E+06 Qe=     66.
+ 
+Domain  1: Wet=        6771 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=      4. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6763 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.20E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6770 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6783 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6768 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     68. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6775 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6787 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6786 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6791 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6803 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6797 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     67. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6797 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6806 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6796 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6796 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6800 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6809 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6804 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6811 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6814 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6810 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6824 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.21E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6824 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6814 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6828 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6823 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     67. 2D V=  0.21E+06 Qe=     64.
+ 
+Domain  1: Wet=        6827 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      4. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6828 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6830 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     67. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6834 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6847 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      1.
+ 
+Domain  1: Wet=        6852 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6846 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6837 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6848 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6842 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      2.
+2D dV/dt=    -61. 2D V=  0.21E+06 Qe=    -66.
+ 
+Domain  1: Wet=        6851 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      1.
+ 
+Domain  1: Wet=        6857 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6846 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6851 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6854 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6861 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=     69. 2D V=  0.21E+06 Qe=     65.
+ 
+Domain  1: Wet=        6862 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6858 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6854 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6874 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      1.
+ 
+Domain  1: Wet=        6852 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6882 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      1.
+ 
+Domain  1: Wet=        6876 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6867 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6864 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6866 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6871 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6888 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6881 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6869 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6879 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     67. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6882 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6891 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6887 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6887 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -64. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6899 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6894 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=   -132. 2D V=  0.21E+06 Qe=   -133.
+ 
+Domain  1: Wet=        6909 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     69. 2D V=  0.21E+06 Qe=     68.
+ 
+Domain  1: Wet=        6896 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6899 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6910 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.21E+06 Qe=      0.
+ 
+Domain  1: Wet=        6901 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.21E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6884 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6894 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6909 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     68. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6911 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -64. 2D V=  0.21E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6894 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     67. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6888 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6888 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6898 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     67. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6905 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.21E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6895 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     67. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6916 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6908 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6909 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6905 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6912 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6922 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6909 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6932 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      3.
+2D dV/dt=      3. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6931 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6904 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -64. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6921 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6944 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6908 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6927 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6925 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6918 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6932 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6929 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6923 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -64. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6939 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6923 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6930 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6933 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     67. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6938 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6930 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6938 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6924 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6940 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6928 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6929 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6930 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6943 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6937 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6941 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6933 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6951 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6949 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6952 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6951 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6944 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6942 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6969 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6930 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6947 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6954 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6950 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6944 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6953 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6940 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6948 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6944 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6952 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6955 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -65. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6954 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6942 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6960 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6934 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     64. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6948 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6940 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6934 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6953 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     65. 2D V=  0.22E+06 Qe=     65.
+ 
+Domain  1: Wet=        6944 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -62. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6951 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6946 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6959 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6946 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6952 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6955 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      3. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6950 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6955 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6953 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6951 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6955 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6964 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6946 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -64. 2D V=  0.22E+06 Qe=    -66.
+ 
+Domain  1: Wet=        6962 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6973 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6977 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6970 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6963 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6970 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=   -133. 2D V=  0.22E+06 Qe=   -133.
+ 
+Domain  1: Wet=        6972 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     69. 2D V=  0.22E+06 Qe=     69.
+ 
+Domain  1: Wet=        6964 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6965 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6959 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6976 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6958 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6966 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6970 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6970 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6974 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6966 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6976 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6963 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6955 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6971 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6973 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6978 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6975 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6980 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6972 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6979 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=     67. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6986 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -65. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6975 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6983 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -65. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6984 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6973 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -65. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6984 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6974 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6971 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6983 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6988 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6993 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6980 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6983 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6977 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6986 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6966 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6965 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     64.
+ 
+Domain  1: Wet=        6980 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6974 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     64. 2D V=  0.23E+06 Qe=     64.
+ 
+Domain  1: Wet=        6971 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.22E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6996 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6991 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6993 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6996 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6976 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6967 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6984 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6979 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6985 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        7004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6982 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6996 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6992 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6998 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        7004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6981 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     64. 2D V=  0.23E+06 Qe=     64.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -64. 2D V=  0.22E+06 Qe=    -64.
+ 
+Domain  1: Wet=        7001 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6994 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -68. 2D V=  0.22E+06 Qe=    -67.
+ 
+Domain  1: Wet=        6990 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    135. 2D V=  0.23E+06 Qe=    133.
+ 
+Domain  1: Wet=        6991 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -65. 2D V=  0.22E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6992 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6974 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6986 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6980 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6986 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6997 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      1.
+ 
+Domain  1: Wet=        6982 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6997 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        7008 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.22E+06 Qe=      0.
+ 
+Domain  1: Wet=        6999 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        7004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6979 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6992 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6983 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6990 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     64. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -63. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6994 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6991 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6996 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6986 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6989 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=     67. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6979 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -65. 2D V=  0.23E+06 Qe=    -66.
+ 
+Domain  1: Wet=        6992 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      1.
+ 
+Domain  1: Wet=        6976 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6981 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7002 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      1.
+ 
+Domain  1: Wet=        7007 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7001 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        7004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -65. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7003 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7010 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6990 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=     -1.
+ 
+Domain  1: Wet=        6993 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6991 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        7003 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7009 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6997 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -68. 2D V=  0.22E+06 Qe=    -68.
+ 
+Domain  1: Wet=        7003 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     69. 2D V=  0.23E+06 Qe=     68.
+ 
+Domain  1: Wet=        6998 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -67. 2D V=  0.22E+06 Qe=    -68.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     68. 2D V=  0.23E+06 Qe=     68.
+ 
+Domain  1: Wet=        6992 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6991 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6992 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6985 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      9.
+2D dV/dt=    127. 2D V=  0.23E+06 Qe=    129.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      4.
+2D dV/dt=   -126. 2D V=  0.23E+06 Qe=   -129.
+ 
+Domain  1: Wet=        7007 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6998 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=     -1.
+ 
+Domain  1: Wet=        7005 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      1.
+ 
+Domain  1: Wet=        7011 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7003 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6986 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6999 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6993 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     63. 2D V=  0.23E+06 Qe=     64.
+ 
+Domain  1: Wet=        6990 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.23E+06 Qe=    -64.
+ 
+Domain  1: Wet=        7001 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6999 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     64.
+ 
+Domain  1: Wet=        6997 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -65. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6991 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7006 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6997 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7010 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      1.
+ 
+Domain  1: Wet=        7005 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6994 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     -2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6985 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6993 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=     -1.
+ 
+Domain  1: Wet=        7003 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     66.
+ 
+Domain  1: Wet=        7008 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -63. 2D V=  0.23E+06 Qe=    -64.
+ 
+Domain  1: Wet=        6994 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=     -1.
+ 
+Domain  1: Wet=        7003 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6987 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=      2. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7000 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7005 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6996 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7006 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=    -65. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        7001 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -68. 2D V=  0.22E+06 Qe=    -68.
+ 
+Domain  1: Wet=        6998 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    133. 2D V=  0.23E+06 Qe=    133.
+ 
+Domain  1: Wet=        7012 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.23E+06 Qe=    -64.
+ 
+Domain  1: Wet=        7016 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     65. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        7010 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=    -64. 2D V=  0.23E+06 Qe=    -65.
+ 
+Domain  1: Wet=        7004 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7005 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        6999 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7012 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7006 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=     66. 2D V=  0.23E+06 Qe=     65.
+ 
+Domain  1: Wet=        6995 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      7.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7013 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      5.
+2D dV/dt=    -62. 2D V=  0.23E+06 Qe=    -64.
+ 
+Domain  1: Wet=        7013 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7013 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      8.
+2D dV/dt=     -1. 2D V=  0.23E+06 Qe=      0.
+ 
+Domain  1: Wet=        7008 Q->1D=      0.
+ Q BC->2D      7. Q BC<-2D      6.
+2D dV/dt=      0. 2D V=  0.23E+06 Qe=      0.
+ 
+Model converged with the following details:
+Present volume: 264712.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+Volume at start of window: 264511.7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+Boundary inflow: 6.6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+Smallest inflow: 3.2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+Writing results at time of convergence
+Model successfully converged at 10.6 hours                                                                                                                                                                                                                      
+Warning: problem writing SMS dat file.
+Maximum Courant number seen:
+  Domain  1: 2.8
+Run completed in 317.5 seconds
+Run successful - stopping.
+100

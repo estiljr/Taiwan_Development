@@ -1,0 +1,14 @@
+[Data]
+outputoption = 1
+dataitem = 0
+columnpernode = 0
+outputtimeunits = 1
+maxoveroutputinterval = 0
+
+[Times]
+firstoutputtimeid = -1
+lastoutputtimeid = -1
+outputinterval = 1
+
+[Nodes]
+

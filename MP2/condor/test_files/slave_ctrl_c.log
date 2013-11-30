@@ -1,0 +1,16 @@
+000 (87345.000.000) 07/02 12:57:24 Job submitted from host: <10.101.10.71:8080>
+...
+001 (87345.000.000) 07/02 12:57:27 Job executing on host: <10.101.134.19:1088>
+...
+005 (87345.000.000) 07/02 12:58:53 Job terminated.
+	(0) Abnormal termination (signal -1073741819)
+	(0) No core file
+		Usr 0 00:01:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:02, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	93925800  -  Run Bytes Sent By Job
+	123788584  -  Run Bytes Received By Job
+	93925800  -  Total Bytes Sent By Job
+	123788584  -  Total Bytes Received By Job
+...

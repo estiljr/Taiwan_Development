@@ -1,0 +1,207 @@
+bootStrap Log 
+Extracting package.7z 
+
+7-Zip (A) 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+
+Processing archive: package.7z
+
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model.xml
+Extracting  ISIS\bin\ISIS2DXMLSchema.xsd
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\pyStderr_isis2d.txt
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.fric.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.init.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.iwet.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zcen.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zmod.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zx.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zy.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_waterlevel_24.00.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\iwl.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no33ne.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no33ne.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no33se.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no33se.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43ne.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43ne.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43nw.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43nw.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43se.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43se.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43sw.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43sw.asc
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Active_Area.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Downstream_Level_001.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_001.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_002.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_003.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_004.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness_modifications.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Z_Polygons.dbf
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.2dm
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\Ha014_Cat0044_Dom001_200Yr_ND.meta.csv
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\MB.csv
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_depth.dat
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_froude.dat
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_hazard.dat
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_velocity.dat
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_waterlevel.dat
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model.log
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\scenario_project.qgs
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Active_Area.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Downstream_Level_001.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_001.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_002.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_003.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_004.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness_modifications.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Z_Polygons.shp
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Active_Area.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Downstream_Level_001.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_001.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_002.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_003.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_004.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness_modifications.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Z_Polygons.shx
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.sup
+Extracting  ISIS\bin\gdal_polygonize.exe
+Extracting  ISIS\bin\ISIS2D.exe
+Extracting  ISIS\bin\ISIS2D_DP.exe
+Extracting  ISIS\bin\ISIS2D_to_ASC.exe
+Extracting  ISIS\bin\2DEngine.dll
+Extracting  ISIS\bin\2DEngine_DP.dll
+Extracting  ISIS\bin\libifcoremd.dll
+Extracting  ISIS\bin\libifportmd.dll
+Extracting  ISIS\bin\libiomp5md.dll
+Extracting  ISIS\bin\libmmd.dll
+Extracting  ISIS\bin\mkl_core.dll
+Extracting  ISIS\bin\mkl_intel_thread.dll
+Extracting  ISIS\bin\svml_dispmd.dll
+Extracting  ISIS\bin\sx32w.dll
+Extracting  ISIS\bin\xerces-c_3_0.dll
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\lateral_inflows
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\initial_conditions
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS
+Extracting  Model\Ha014_Cat0044_Dom001_200Yr_ND
+Extracting  Model
+Extracting  ISIS\bin
+Extracting  ISIS
+
+Everything is Ok
+
+Folders: 10
+Files: 74
+Size:       1064377644
+Compressed: 101110623
+Finished extracting package.7z with ERRORLEVEL 0 
+PATH is C:\condor\execute\dir_6712\ISIS\bin; 
+ISIS is C:\condor\execute\dir_6712\ISIS 
+ISIS2D is C:\condor\execute\dir_6712\ISIS\bin 
+Running doSlave.exe 
+in python
+Changing dir to Model\Ha014_Cat0044_Dom001_200Yr_ND
+Running ISIS 2D
+Waiting for ISIS 2D to finish
+i2dErr is 100
+Running ISIS2D_to_asc.exe
+Waiting for ISIS2D_to_asc.exe to finish
+Running ISIS2D_to_asc.exe
+Waiting for ISIS2D_to_asc.exe to finish
+Running ISIS2D_to_asc.exe
+Waiting for ISIS2D_to_asc.exe to finish
+Running ISIS2D_to_asc.exe
+Waiting for ISIS2D_to_asc.exe to finish
+Running ISIS2D_to_asc.exe
+Waiting for ISIS2D_to_asc.exe to finish
+Running gdal_polygonize.exe
+Waiting for gdal_polygonize.exe to finish
+Going back to C:\condor\execute\dir_6712
+Calling exit with code 100
+Finished running doSlave.exe with ERRORLEVEL 100 
+ERRORLEVEL is 100 
+PYTHONERRORLEVEL is 100 
+Compressing Model.7z 
+
+7-Zip (A) 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+Scanning
+
+Creating archive Model.7z
+
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model.xml
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\pyStderr.txt
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\pyStderr.txt
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\pyStderr_isis2d.txt
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.fric.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.init.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.iwet.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zcen.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zmod.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zx.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.chk.zy.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_depth_8.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_froude_8.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_hazard_8.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_velocity_8.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_velocity_direction_8.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_waterlevel_24.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_waterlevel_8.00.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\extent_grid.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\iwl.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no33ne.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no33ne.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no33se.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no33se.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43ne.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43ne.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43nw.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43nw.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43se.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43se.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\topo\no43sw.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness\no43sw.asc
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Active_Area.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Downstream_Level_001.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\flood_extent.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_001.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_002.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_003.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_004.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness_modifications.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Z_Polygons.dbf
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.2dm
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\Ha014_Cat0044_Dom001_200Yr_ND.meta.csv
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\MB.csv
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_depth.dat
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_froude.dat
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_hazard.dat
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_velocity.dat
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01_waterlevel.dat
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model.log
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\scenario_project.qgs
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Active_Area.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Downstream_Level_001.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\flood_extent.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_001.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_002.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_003.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_004.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness_modifications.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Z_Polygons.shp
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Active_Area.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Downstream_Level_001.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\flood_extent.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_001.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_002.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_003.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Main_Inflow_004.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\roughness_modifications.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\GIS\Z_Polygons.shx
+Compressing  Model\Ha014_Cat0044_Dom001_200Yr_ND\model_01\01.sup
+
+Everything is Ok
+Finished compressing Model.7z with ERRORLEVEL 0 
+PYTHONERRORLEVEL is 100 
+Calling Exit 

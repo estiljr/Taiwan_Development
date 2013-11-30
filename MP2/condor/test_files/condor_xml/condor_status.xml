@@ -1,0 +1,125 @@
+<c>
+    <a n="MyType"><s>Machine</s></a>
+    <a n="TargetType"><s>Job</s></a>
+    <a n="Name"><s>slot2@W024204.amr.ch2m.com</s></a>
+    <a n="Rank"><r>0.000000000000000E+000</r></a>
+    <a n="CpuBusy"><e>((LoadAvg - CondorLoadAvg) &gt;= 0.500000)</e></a>
+    <a n="SlotWeight"><e>Cpus</e></a>
+    <a n="Unhibernate"><e>MY.MachineLastMatchTime =!= UNDEFINED</e></a>
+    <a n="MyCurrentTime"><i>1385388822</i></a>
+    <a n="Machine"><s>W024204.amr.ch2m.com</s></a>
+    <a n="PublicNetworkIpAddr"><s>&lt;10.101.125.48:9834&gt;</s></a>
+    <a n="SWMM_INSTALLED"><b v="t"/></a>
+    <a n="COLLECTOR_HOST_STRING"><s>swin-as-20.amr.ch2m.com</s></a>
+    <a n="CondorVersion"><s>$CondorVersion: 7.4.4 Oct 13 2010 BuildID: 279383 $</s></a>
+    <a n="CondorPlatform"><s>$CondorPlatform: INTEL-WINNT50 $</s></a>
+    <a n="SlotID"><i>2</i></a>
+    <a n="VirtualMachineID"><i>2</i></a>
+    <a n="ExecutableSize"><i>20</i></a>
+    <a n="JobUniverse"><i>5</i></a>
+    <a n="NiceUser"><b v="f"/></a>
+    <a n="VirtualMemory"><i>2097151</i></a>
+    <a n="TotalDisk"><i>73714400</i></a>
+    <a n="Disk"><i>36857200</i></a>
+    <a n="CondorLoadAvg"><r>0.000000000000000E+000</r></a>
+    <a n="LoadAvg"><r>4.099999964237213E-001</r></a>
+    <a n="KeyboardIdle"><i>441533</i></a>
+    <a n="ConsoleIdle"><i>441533</i></a>
+    <a n="Memory"><i>4094</i></a>
+    <a n="Cpus"><i>1</i></a>
+    <a n="StartdIpAddr"><s>&lt;10.101.125.48:9834&gt;</s></a>
+    <a n="Arch"><s>INTEL</s></a>
+    <a n="OpSys"><s>WINNT61</s></a>
+    <a n="UidDomain"><s>ch2m.com</s></a>
+    <a n="FileSystemDomain"><s>W024204.amr.ch2m.com</s></a>
+    <a n="HasIOProxy"><b v="t"/></a>
+    <a n="CheckpointPlatform"><s>WINNT61 INTEL Unknown normal</s></a>
+    <a n="WindowsMajorVersion"><i>6</i></a>
+    <a n="WindowsMinorVersion"><i>1</i></a>
+    <a n="WindowsBuildNumber"><i>7601</i></a>
+    <a n="WindowsServicePackMajorVersion"><i>1</i></a>
+    <a n="WindowsServicePackMinorVersion"><i>0</i></a>
+    <a n="WindowsProductType"><i>1</i></a>
+    <a n="TotalVirtualMemory"><i>4194303</i></a>
+    <a n="TotalCpus"><i>2</i></a>
+    <a n="TotalMemory"><i>8189</i></a>
+    <a n="KFlops"><i>1341037</i></a>
+    <a n="Mips"><i>6127</i></a>
+    <a n="LastBenchmark"><i>1385379518</i></a>
+    <a n="TotalLoadAvg"><r>4.099999964237213E-001</r></a>
+    <a n="TotalCondorLoadAvg"><r>0.000000000000000E+000</r></a>
+    <a n="ClockMin"><i>853</i></a>
+    <a n="ClockDay"><i>1</i></a>
+    <a n="TotalSlots"><i>2</i></a>
+    <a n="TotalVirtualMachines"><i>2</i></a>
+    <a n="HasFileTransfer"><b v="t"/></a>
+    <a n="HasPerFileEncryption"><b v="t"/></a>
+    <a n="HasReconnect"><b v="t"/></a>
+    <a n="HasMPI"><b v="t"/></a>
+    <a n="HasTDP"><b v="t"/></a>
+    <a n="HasJobDeferral"><b v="t"/></a>
+    <a n="HasJICLocalConfig"><b v="t"/></a>
+    <a n="HasJICLocalStdin"><b v="t"/></a>
+    <a n="HasWindowsRunAsOwner"><b v="t"/></a>
+    <a n="StarterAbilityList"><s>HasFileTransfer,HasPerFileEncryption,HasReconne
+ct,HasMPI,HasTDP,HasJobDeferral,HasJICLocalConfig,HasJICLocalStdin,HasVM,HasWind
+owsRunAsOwner</s></a>
+    <a n="HasVM"><b v="f"/></a>
+    <a n="HibernationLevel"><i>0</i></a>
+    <a n="HibernationState"><s>NONE</s></a>
+    <a n="HibernationSupportedStates"><s></s></a>
+    <a n="CanHibernate"><b v="f"/></a>
+    <a n="HardwareAddress"><s>D0:67:E5:EC:A7:63</s></a>
+    <a n="SubnetMask"><s>255.255.255.0</s></a>
+    <a n="IsWakeOnLanSupported"><b v="t"/></a>
+    <a n="IsWakeOnLanEnabled"><b v="t"/></a>
+    <a n="IsWakeAble"><b v="t"/></a>
+    <a n="WakeOnLanSupportedFlags"><s>Magic Packet</s></a>
+    <a n="WakeOnLanEnabledFlags"><s>Magic Packet</s></a>
+    <a n="CpuBusyTime"><i>0</i></a>
+    <a n="CpuIsBusy"><b v="f"/></a>
+    <a n="TimeToLive"><i>2147483647</i></a>
+    <a n="State"><s>Claimed</s></a>
+    <a n="EnteredCurrentState"><i>1385387875</i></a>
+    <a n="Activity"><s>Busy</s></a>
+    <a n="EnteredCurrentActivity"><i>1385388820</i></a>
+    <a n="TotalTimeOwnerIdle"><i>11</i></a>
+    <a n="TotalTimeUnclaimedIdle"><i>439485</i></a>
+    <a n="TotalTimeUnclaimedBenchmarking"><i>6</i></a>
+    <a n="TotalTimeClaimedIdle"><i>16</i></a>
+    <a n="TotalTimeClaimedBusy"><i>2028</i></a>
+    <a n="Start"><b v="t"/></a>
+    <a n="Requirements"><e>(START) &amp;&amp; (IsValidCheckpointPlatform)</e></a
+>
+    <a n="IsValidCheckpointPlatform"><e>(((TARGET.JobUniverse == 1) == FALSE) ||
+ ((MY.CheckpointPlatform =!= UNDEFINED) &amp;&amp; ((TARGET.LastCheckpointPlatfo
+rm =?= MY.CheckpointPlatform) || (TARGET.NumCkpts == 0))))</e></a>
+    <a n="MaxJobRetirementTime"><i>0</i></a>
+    <a n="LastFetchWorkSpawned"><i>0</i></a>
+    <a n="LastFetchWorkCompleted"><i>0</i></a>
+    <a n="NextFetchWorkDelay"><i>-1</i></a>
+    <a n="CurrentRank"><r>0.000000000000000E+000</r></a>
+    <a n="RemoteUser"><s>JiY@ch2m.com</s></a>
+    <a n="RemoteOwner"><s>JiY@ch2m.com</s></a>
+    <a n="ClientMachine"><s>W024204.amr.ch2m.com</s></a>
+    <a n="JobId"><s>264.0</s></a>
+    <a n="GlobalJobId"><s>W024204.amr.ch2m.com#264.0#1385387878</s></a>
+    <a n="JobStart"><i>1385388819</i></a>
+    <a n="ImageSize"><i>6684</i></a>
+    <a n="TotalJobRunTime"><i>2</i></a>
+    <a n="TotalClaimRunTime"><i>931</i></a>
+    <a n="MonitorSelfTime"><i>1385388664</i></a>
+    <a n="MonitorSelfCPUUsage"><r>9.098400175571442E-002</r></a>
+    <a n="MonitorSelfImageSize"><r>8.440400000000000E+004</r></a>
+    <a n="MonitorSelfResidentSetSize"><i>17224</i></a>
+    <a n="MonitorSelfAge"><i>441391</i></a>
+    <a n="MonitorSelfRegisteredSocketCount"><i>3</i></a>
+    <a n="DaemonStartTime"><i>1384947273</i></a>
+    <a n="UpdateSequenceNumber"><i>7372</i></a>
+    <a n="MyAddress"><s>&lt;10.101.125.48:9834&gt;</s></a>
+    <a n="LastHeardFrom"><i>1385388822</i></a>
+    <a n="UpdatesTotal"><i>7373</i></a>
+    <a n="UpdatesSequenced"><i>7372</i></a>
+    <a n="UpdatesLost"><i>0</i></a>
+    <a n="UpdatesHistory"><s>0x00000000000000000000000000000000</s></a>
+</c>
