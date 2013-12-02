@@ -18,7 +18,7 @@
     <InterpreterArguments>
     </InterpreterArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <InterpreterId>{ec9da8ce-918b-440d-b7c4-82e9541843ce}</InterpreterId>
+    <InterpreterId>{3d395fb1-be9f-4c56-903d-0f41bb7ed776}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -194,7 +194,7 @@
     <Compile Include="mp2\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="{ec9da8ce-918b-440d-b7c4-82e9541843ce}\2.7" />
+    <InterpreterReference Include="{3d395fb1-be9f-4c56-903d-0f41bb7ed776}\2.7" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
