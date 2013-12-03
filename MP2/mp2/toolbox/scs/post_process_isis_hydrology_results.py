@@ -25,10 +25,12 @@ def convert_csvs_to_ied(lstRuns,outputFolder,aggr=True):
         dictTS = dict()
         for csvFile in csvfiles:
             csvFileName =  os.path.split(csvFile)[1]
-            #siteName = 'B'+csvFileName.split('_')[1].split('.')[0]
-            siteName = csvFileName.split('_')[1].split('.')[0]
             
+            #siteName = csvFileName.split('_')[1].split('.')[0]
+            siteName = csvFileName.split('_')[-1].split('.')[0]
             
+            if csvFileName == run[0]+'.csv':
+                continue        
             
             fo = open(csvFile)
             data = csv.DictReader(fo)
@@ -54,6 +56,10 @@ def convert_csvs_to_ied(lstRuns,outputFolder,aggr=True):
 
 
 def aggregate_event_csvs(inputDir,outputFile='adjcatchd3km1_summary.csv'):
+    """
+    @summary: aggregate the processed peak flows together
+    @note:    needs to run aggregate_point_csvs() prior to this
+    """
     csvfiles = glob.glob(inputDir+'/adj*peak.csv')
     lstPeakFlows  = []
     for csvFile in csvfiles:
@@ -152,8 +158,58 @@ def plot_multiple_hydrographs_for_single_site(dictFiles,title,outputFolder='./')
     #dfFlowSeries = pd.concat(flowSeries,join='outer')
     #print dfFlowSeries
     
-
-def compare_flows_between_different_methods():
+def compare_flows_with_same_file_name():
+    """
+    @summary: it takes the peak flow summary from aggregate_event_csvs()
+              compare two sets of flow estimates for the same catchments.
+    """
+    run1Dir=r'C:\temp\taiwan\111\scs\scs_summary'
+    run2Dir=r'C:\temp\taiwan\222\scs\scs_summary'
+    sRun1 = 'initial run'
+    sRun2 = 'soil run'
+    
+    csvRun1Files = glob.glob(run1Dir+'/adj*IDW*peak.csv')
+    lstDiffs =[]
+    for csvFile1 in csvRun1Files:    
+        csvFileName =  os.path.split(csvFile1)[1]
+        csvFile2 = os.path.join(run2Dir,csvFileName)
+        print csvFile1, csvFile2
+        dfSingleRun1 = pd.read_csv(csvFile1,index_col=0,names=['DrainageID',sRun1])
+        dfSingleRun2 = pd.read_csv(csvFile2,index_col=0,names=['DrainageID',sRun2])
+        dfSiggleDiff = pd.concat([dfSingleRun1,dfSingleRun2],axis=1)
+        lstDiffs.append(dfSiggleDiff)
+    
+    dfDiff = pd.concat(lstDiffs,ignore_index=True, axis=0)
+    dfDiff['Diff']=dfDiff[sRun1] - dfDiff[sRun2]
+    
+    dfDiff['ratio']=(dfDiff[sRun1]/dfDiff[sRun2])
+    dfDiff['ratio'].hist(alpha=0.5, bins=50,normed=True)
+    plt.title('Distribution of flow ratio (%s/%s)'%(sRun1,sRun2))
+    plt.xlabel('(%s/%s)'%(sRun1,sRun2))
+    plt.savefig('Distribution_of_flow_ratio.png')
+    
+    
+    bins = [0, 100, 200,1000,10000]
+    cats = pd.cut(dfDiff[sRun1], bins,right=False) 
+    dfDiff['cat']=cats.labels
+    
+    dfDiff.to_csv('flow_diff.csv')
+    
+    
+    fig, axes = plt.subplots(nrows=2, ncols=2,figsize=(10, 8))
+    dfDiff[dfDiff['cat']==0]['Diff'].hist(alpha=0.5, bins=50,normed=True,ax=axes[0,0])
+    axes[0,0].set_title('IDW flows within ' + str(cats.levels[0]))
+    dfDiff[dfDiff['cat']==1]['Diff'].hist(alpha=0.5, bins=50,normed=True,ax=axes[0,1])
+    axes[0,1].set_title('IDW flows within ' + str(cats.levels[1]))
+    dfDiff[dfDiff['cat']==2]['Diff'].hist(alpha=0.5, bins=50,normed=True,ax=axes[1,0])
+    axes[1,0].set_title('IDW flows within ' + str(cats.levels[2]))
+    dfDiff[dfDiff['cat']==3]['Diff'].hist(alpha=0.5, bins=50,normed=True,ax=axes[1,1])
+    axes[1,1].set_title('IDW flows within ' + str(cats.levels[3]))
+    plt.xlabel('%s - %s (m3/s)'%(sRun1,sRun2))
+    plt.savefig('flow_diff_subplots.png')
+    
+    
+def compare_flows_with_different_file_name():
     """
     @summary: it takes the peak flow summary from aggregate_event_csvs()
               compare two sets of flow estimates for the same catchments.
@@ -198,30 +254,31 @@ def compare_flows_between_different_methods():
     plt.savefig('flow_diff_subplots.png')
     
 if __name__ == '__main__':
-    lstRuns=[ ['catchd3km1_RP100E_IDW' ,
-               r'C:\temp\taiwan\scs\ISISHydrology\catchd3km1_RP100E_IDW']              
-            ]
+#     lstRuns=[ ['catchd3km1_RP100E_IDW' ,
+#                r'C:\temp\taiwan\scs\ISISHydrology\catchd3km1_RP100E_IDW']              
+#             ]
     
-    outputFolder = r'C:\temp\taiwan\111\scs\scs_summary'
+    outputFolder = r'C:\temp\taiwan\444\scs\scs_summary'
 
     #generate_plots_for_multiple_RPs_for_multiple_sites()
     #plot_multiple_hydrographs_for_single_site(tst,'21394')
     
     #convert_csvs_to_ied(lstRuns,outputFolder,False)
     
-#===============================================================================
-#     lstRuns = []
-#     
-#     for k,dataConfig in rainData.items():
-#         InFCName =  runSCSData['input']['catchment_name']
-#         rainfallZonalOutput = InFCName + '_' + dataConfig['oGrid']
-# 
-#         dirOutput = os.path.join(runSCSData['output']['output_scs_ws'],dataConfig['oGrid'],InFCName)
-#         
-#         lstRuns.append([rainfallZonalOutput,dirOutput])
-#         
-#     pprint.pprint(lstRuns)
-#     aggregate_point_csvs(lstRuns,outputFolder)
-#===============================================================================
-
-    aggregate_event_csvs( r'C:\temp\taiwan\111\scs\scs_summary')
+    ''' aggregate the raw results from ISIS hydrology '''
+    lstRuns = []
+      
+    for k,dataConfig in rainData.items():
+        InFCName =  runSCSData['input']['catchment_name']
+        rainfallZonalOutput = InFCName + '_' + dataConfig['oGrid']
+  
+        dirOutput = os.path.join(runSCSData['output']['output_scs_ws'],dataConfig['oGrid'],InFCName)
+          
+        lstRuns.append([rainfallZonalOutput,dirOutput])
+          
+    pprint.pprint(lstRuns)
+    aggregate_point_csvs(lstRuns,outputFolder)
+    
+    convert_csvs_to_ied(lstRuns,outputFolder,True)
+    aggregate_event_csvs(outputFolder)
+    #compare_flows_with_same_file_name()

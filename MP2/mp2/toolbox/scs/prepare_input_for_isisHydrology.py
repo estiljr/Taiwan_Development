@@ -35,7 +35,7 @@ elif fileType == 'GDB':
     
 dirOutput = runSCSData['output']['output_ws']
 
-dfLkpSoil = pd.read_csv(r'lookups\lkp_soil_V1.csv',index_col=0)
+dfLkpSoil = pd.read_csv(r'lookups\lkp_soil_V2.csv',index_col=0)
 dfLkpLanduse = pd.read_csv(r'lookups\lkp_landuse_v1.csv',index_col=0,header=0)
 dfLkpCN = pd.read_table(r'lookups\lkp_cn_v1.txt',index_col=0,sep='\t')
       
@@ -107,7 +107,8 @@ def calc_cn_from_landuse_intersected():
     ''' 1. load catchment slope csv file '''
     dfCatchmentSlope = pd.read_csv(csvCatchmentSlope,index_col=0,header=0)
     
-    ''' 2. load soil_landuse_catch the shape file '''            
+    ''' 2. load soil_landuse_catch the shape file '''   
+    print shpSoilLand
     ds = driver.Open(shpSoilLand, 0)
     vlayerSoilLand=ds.GetLayer(0)
     if ds is None:
@@ -262,7 +263,7 @@ def prepare_cat_slope_flowLen_Outlet():
     dfCatchment['X']=0
     dfCatchment['Y']=0
         
-    if needDrainagePoints:      
+    if not isAdj:      
         feat = lyrDrainagePoints.GetNextFeature()
         while feat:
             dfCatchment.ix[feat.GetField('DrainID'),'X']=feat.GetField('Easting')

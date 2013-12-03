@@ -5,7 +5,7 @@ import time
 
 import sys
 import mp2
-from mp2.utility import errors
+#from mp2.utility import errors
 
 from lxml import etree  # @UnresolvedImport
 from collections import defaultdict

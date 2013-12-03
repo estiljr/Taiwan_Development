@@ -5,6 +5,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MP2", "MP2\MP2.pyproj", "{1
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GenerateFloodMap", "FloodMapper\GenerateFloodMap.pyproj", "{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SQLAlchemy", "SQLAlchemy\SQLAlchemy.pyproj", "{910E749E-A093-4CE9-8F0C-FF79FF095D29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C8FAD8-242D-4EF8-A472-28D3678ABDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910E749E-A093-4CE9-8F0C-FF79FF095D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910E749E-A093-4CE9-8F0C-FF79FF095D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910E749E-A093-4CE9-8F0C-FF79FF095D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910E749E-A093-4CE9-8F0C-FF79FF095D29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

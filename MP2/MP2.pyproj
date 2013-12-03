@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1b8138e2-5a16-4026-a272-e294b7a98c9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mp2\toolbox\JE\GenerateFloodMap.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,13 +14,15 @@
     <Name>MP2</Name>
     <RootNamespace>MP2</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>r"C:\temp\ISISMapper\xsection4_TIN.htn" r"C:\temp\ISISMapper\xsection4_.shp.csv" r"C:\temp\ISISMapper\dtm_pilot_taipei.asc" "1" r"C:\temp\ISISMapper"</CommandLineArguments>
+    <CommandLineArguments>
+    </CommandLineArguments>
     <InterpreterPath />
     <InterpreterArguments>
     </InterpreterArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <InterpreterId>{3d395fb1-be9f-4c56-903d-0f41bb7ed776}</InterpreterId>
+    <InterpreterId>{ec9da8ce-918b-440d-b7c4-82e9541843ce}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +42,9 @@
     <Folder Include="isis\isis1d\test_files\" />
     <Folder Include="isis\isis2d\" />
     <Folder Include="isis\isis2d\test_files\" />
+    <Folder Include="isis\isismapper\" />
+    <Folder Include="isis\isismapper\test_files\" />
+    <Folder Include="isis\isismapper\test_files\tin_related\" />
     <Folder Include="mp2\" />
     <Folder Include="mp2\action\" />
     <Folder Include="mp2\doslave\" />
@@ -49,7 +55,7 @@
     <Folder Include="mp2\doslave\dist\doSlave\" />
     <Folder Include="mp2\model\" />
     <Folder Include="mp2\toolbox\" />
-    <Folder Include="mp2\toolbox\JE\" />
+    <Folder Include="mp2\toolbox\archive\" />
     <Folder Include="mp2\toolbox\misc_files\" />
     <Folder Include="mp2\toolbox\scs\" />
     <Folder Include="mp2\toolbox\scs\arcpy\" />
@@ -59,6 +65,7 @@
     <Folder Include="mp2\workflow\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="condor\condor.pyc" />
     <Content Include="condor\test_files\.job.ad" />
     <Content Include="condor\test_files\.machine.ad" />
     <Content Include="condor\test_files\condor_xml\condor_history.xml" />
@@ -77,6 +84,7 @@
     <Content Include="condor\test_files\success_logs\slave.err" />
     <Content Include="condor\test_files\success_logs\slave.log" />
     <Content Include="condor\test_files\success_logs\slave.out" />
+    <Content Include="condor\__init__.pyc" />
     <Content Include="isis\isis1d\test_files\boundary.feb" />
     <Content Include="isis\isis1d\test_files\boundary.ied" />
     <Content Include="isis\isis1d\test_files\boundary.iml" />
@@ -132,7 +140,6 @@
     <Content Include="mp2\doslave\dist\doSlave\unicodedata.pyd" />
     <Content Include="mp2\doslave\dist\doSlave\_hashlib.pyd" />
     <Content Include="mp2\doslave\doSlave.spec" />
-    <Content Include="mp2\toolbox\JE\ISIS2DXMLSchema.xsd" />
     <Content Include="mp2\toolbox\misc_files\BNG.prj" />
     <Content Include="mp2\toolbox\scs\Distribution_of_flow_ratio.png" />
     <Content Include="mp2\toolbox\scs\flow_diff.csv" />
@@ -172,16 +179,18 @@
     <Compile Include="isis\isis2d\modelXML_Test.py" />
     <Compile Include="isis\isis2d\timeStep.py" />
     <Compile Include="isis\isis2d\__init__.py" />
+    <Compile Include="isis\isismapper\__init__.py" />
     <Compile Include="mp2\action\openRunFolder.py" />
     <Compile Include="mp2\action\__init__.py" />
     <Compile Include="mp2\doslave\doSlave.py" />
     <Compile Include="mp2\doslave\doSlave_adv.py" />
     <Compile Include="mp2\doslave\__init__.py" />
     <Compile Include="mp2\model\db.py" />
+    <Compile Include="mp2\model\db_test.py" />
     <Compile Include="mp2\model\run.py" />
     <Compile Include="mp2\model\__init__.py" />
-    <Compile Include="mp2\toolbox\JE\Archive_model.py" />
-    <Compile Include="mp2\toolbox\JE\GenerateFloodMap.py" />
+    <Compile Include="mp2\toolbox\archive\Archive_model.py" />
+    <Compile Include="mp2\toolbox\archive\GenerateFloodMap.py" />
     <Compile Include="mp2\toolbox\scs\arcpy\zonal_slope_rainfall.py" />
     <Compile Include="mp2\toolbox\scs\data_setup.py" />
     <Compile Include="mp2\toolbox\scs\post_process_isis_hydrology_results.py" />
@@ -194,7 +203,7 @@
     <Compile Include="mp2\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="{3d395fb1-be9f-4c56-903d-0f41bb7ed776}\2.7" />
+    <InterpreterReference Include="{ec9da8ce-918b-440d-b7c4-82e9541843ce}\2.7" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

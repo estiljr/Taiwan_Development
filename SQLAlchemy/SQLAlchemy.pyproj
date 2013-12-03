@@ -5,13 +5,21 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>910e749e-a093-4ce9-8f0c-ff79ff095d29</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SQLAlchemy.py</StartupFile>
+    <StartupFile>SQLAlchemy_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>SQLAlchemy</Name>
     <RootNamespace>SQLAlchemy</RootNamespace>
+    <InterpreterId>{ec9da8ce-918b-440d-b7c4-82e9541843ce}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments />
+    <InterpreterPath />
+    <InterpreterArguments />
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +30,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SQLAlchemy.py" />
+    <Compile Include="SQLAlchemy_1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{ec9da8ce-918b-440d-b7c4-82e9541843ce}\2.7" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

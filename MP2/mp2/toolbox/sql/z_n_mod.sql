@@ -55,7 +55,7 @@ CREATE INDEX sidx_zline_plpt_pt
 CREATE TABLE model_gi.zarea
 (
   gid serial NOT NULL,
-  geom geometry (LINESTRING,3826),
+  geom geometry (POLYGON,3826),
   height real NOT NULL DEFAULT (-9999.0),
   lowest_val integer NOT NULL DEFAULT 1,
   comment text,

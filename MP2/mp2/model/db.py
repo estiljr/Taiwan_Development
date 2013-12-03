@@ -1,10 +1,11 @@
 from sqlalchemy.orm import sessionmaker,mapper
 from sqlalchemy import create_engine
-from sqlalchemy import Table, Column, Integer, String, Float, DateTime , Boolean,MetaData
-
+from sqlalchemy import Table, Column, Integer, String, Float, DateTime , Boolean,MetaData ,VARCHAR
 
 from condor.condor import Slot,Client,JobStatus, CondorSystem
 from mp2.model.run import Run, RunArchive
+from mp2.model.scenario import Scenario
+
 
 engine = create_engine('postgresql://taiwan_user:taiwan@UKSD2F0W3J:5432/taiwan', echo=True)  
 metadata = MetaData()
@@ -91,8 +92,9 @@ run_table = Table('run', metadata,
                 Column('name',String), 
                 Column('dir_run',String), 
                                
-                Column('archive_required',Boolean),                 
-                Column('archive_msg',String),
+                Column('archive_required',Boolean),  
+                Column('archive_failed',Boolean),                                  
+                Column('archive_history',String),
                 schema='model_meta')
 
 mapper(Run, run_table,  
@@ -100,7 +102,8 @@ mapper(Run, run_table,
                                  '_name':  run_table.c.name,
                                  '_dir_run':  run_table.c.dir_run,
                                  '_archive_required':  run_table.c.archive_required,  
-                                 '_archive_msg':  run_table.c.archive_msg,                 
+                                 '_archive_failed':  run_table.c.archive_failed,
+                                 '_archive_history':  run_table.c.archive_history,                 
                                 })    
 
 
@@ -122,9 +125,118 @@ mapper(RunArchive, run_archive_table,
                                  'archive_time':  run_archive_table.c.archive_time,                
                                 })    
 
+''' scenario ''' 
+scenario_table = Table('scenarios', metadata,
+                Column('id', Integer, primary_key=True),
+                Column('description',String),
+                Column('suffix',String),
+                Column('rp',Float),
+                Column('defended',Boolean)
+                ,schema='model_meta')
+ 
+ 
+mapper(Scenario,scenario_table  ,  
+                    properties={ '_id':  scenario_table.c.id,
+                                 '_description' : scenario_table.c.description,
+                                '_suffix':  scenario_table.c.suffix,
+                                '_rp': scenario_table.c.rp,
+                                '_defended':scenario_table.c.defended,
+                                })        
 ''' =============================  end of model_meta    =========================================== '''
 
  
+''' =============================  start of model_gi    =========================================== '''
+
+from geoalchemy2 import Geometry
+from sqlalchemy.ext.declarative import declarative_base
+Base = declarative_base()
+
+# Topography modification
+class ZArea(Base):
+    __tablename__ = 'zarea'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key=True)
+    geom = Column(Geometry('POLYGON',3826))  # LINESTRING  POINT
+    height = Column(Float)
+    lowest_val = Column(Float)
+    comment = Column(String)
+
+class ZLine_Pl(Base):
+    __tablename__ = 'zline_pl'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key = True)
+    geom = Column(Geometry('LINESTRING',3826))
+    height = Column(Float,nullable=False,default =-9999.0)
+    height1 = Column(Float,nullable=False,default =-9999.0)
+    height2 = Column(Float,nullable=False,default =-9999.0)
+    thick = Column(Integer)
+    intrp_ends = Column(Integer)
+    lowest_val = Column(Integer)
+    comment = Column(String)
+
+class ZLine_PlPt_Pl(Base):
+    __tablename__ = 'zline_plpt_pl'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key = True)
+    geom = Column(Geometry('LINESTRING',3826))
+    height = Column(Float)
+    thick = Column(Integer)
+    comment = Column(String)
+
+class ZLine_PlPt_Pt(Base):
+    __tablename__ = 'zline_plpt_pt'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key = True)
+    geom = Column(Geometry('LINESTRING',3826))
+    height = Column(Float)
+    thick = Column(Integer)
+
+# Roughness modification
+class NArea(Base):
+    __tablename__ = 'narea'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key = True)
+    geom = Column(Geometry('POLYGON',3826))
+    method = Column(VARCHAR(50))
+    value = Column(Float)
+    comment = Column(String)
+
+# Boundary
+class Boundary(Base):
+    __tablename__ = 'boundary'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key = True)
+    geom = Column(Geometry('LINESTRING',3826))
+    type = Column(VARCHAR(254))
+    value = Column(Float)
+    domain_gid = Column(Integer)
+    flow_point_gid = Column(Integer)
+
+# Domain
+class Domain(Base):
+    __tablename__ = 'domain'
+    __table_args__ = {'schema' : 'model_gi'}
+    gid = Column(Integer, primary_key = True)
+    geom = Column(Geometry('POLYGON',3826))
+    name = Column(VARCHAR(254))
+    domain_ws = Column(VARCHAR(254))
+    cell_size = Column(Float)
+    us_domain_gids = Column(Integer)
+    ds_domain_gids = Column(Integer)
+    us_bdy_gids = Column(Integer)
+    bs_bdy_gids = Column(Integer)
+    ds_end = Column(Boolean)
+    modeller = Column(VARCHAR(254))
+    reviewer = Column(VARCHAR(254))
+    log = Column(String)
+    comment = Column(String)
+    status = Column(VARCHAR(254))
+
+Base.metadata.create_all(engine)
+ 
+''' =============================  end of model_gi    =========================================== '''
 #metadata.create_all(engine)
 Session = sessionmaker(bind=engine) 
-session = Session()
+_session = Session()
+
+

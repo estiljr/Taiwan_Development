@@ -149,8 +149,9 @@ CREATE TABLE model_meta.run
   mb_err_perc double precision,
   priority integer DEFAULT 0,
   
-  need_archive BOOLEAN  DEFAULT FALSE,
-  archive_msg  text,
+  archive_required BOOLEAN  DEFAULT FALSE,
+  archive_failed BOOLEAN  DEFAULT FALSE,
+  archive_history  text,
   
   tag text,
   
