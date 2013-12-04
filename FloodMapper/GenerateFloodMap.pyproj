@@ -28,6 +28,7 @@
   <ItemGroup>
     <Compile Include="GenerateFloodMap.py" />
     <Compile Include="module1.py" />
+    <Compile Include="module2.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{ec9da8ce-918b-440d-b7c4-82e9541843ce}\2.7" />

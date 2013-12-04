@@ -1,13 +1,17 @@
 import subprocess
 import os
+from mp2.toolbox.normal_depth import normalDepth as nd
 
 isisMapper = r"C:\isis\bin\ISISMapper.exe"
 
-def GenerateFloodMap(tinFile, csvFile, dtmFile, timeSnaps, outGridFile):
+def GenerateFloodMap(shpXsection, xSectionFile, csvInflows, flowTag, csvFlowFile, tinFile, csvDepthFile, dtmFile, timeSnaps, outGridFile):
     """Generates depth grid and flood extent shapefile from the model result."""
 
+    csvFlowInput = nd.prepare_flow_for_sections(shpXsection,csvInflows,flowTag,csvFlowFile)
+    nd.Calculate_NormalDepth(shpXsection,xSectionFile,csvFlowInput,csvDepthFile)
+
     try:
-        TinToGrid(tinFile, csvFile, dtmFile, timeSnaps, outGridFile)
+        TinToGrid(tinFile, csvDepthFile, dtmFile, timeSnaps, outGridFile)
         ts = timeSnaps.split(",")
         if len(ts) == 1: # if only 1 timeSnap specified
             outGrid = outGridFile
@@ -30,11 +34,11 @@ def GenerateFloodMap(tinFile, csvFile, dtmFile, timeSnaps, outGridFile):
 
 
 
-def TinToGrid(tinFile, csvFile, dtmFile, timeSnaps, outGridFile):
+def TinToGrid(tinFile, csvDepthFile, dtmFile, timeSnaps, outGridFile):
     """Generates depth grid from the model result."""
 
     try:
-        args = 'calculate1dflooddepth /i: ',dtmFile+','+tinFile+','+csvFile+','+timeSnaps, ' /o: ',outGridFile
+        args = 'calculate1dflooddepth /i: ',dtmFile+','+tinFile+','+csvDepthFile+','+timeSnaps, ' /o: ',outGridFile
         subprocess.call([isisMapper, args],shell=True)
     except ValueError as e: print(e)
         
@@ -50,11 +54,19 @@ def GridToShapefile(gridFile, outShapefile):
 
 if __name__=='__main__':
 
+    shpXsection= r'normal_depth\test_files\xsection3_spatialjoin.shp'
+    xSectionFile = r'normal_depth\test_files\xsection3.sec'
+    csvInflows = r'normal_depth\test_files\adjcatchd3km1_summary.csv'
+    flowTag='RP100E_IDW'
+    csvOutput=os.path.join(r'test_files',flowTag+'.csv')
+
+
+
     tinFile = r"isis\isismapper\test_files\tin_related\xsection4_TIN.htn" 
-    csvFile = r"isis\isismapper\test_files\tin_related\xsection4.csv" 
+    #csvFile = r"isis\isismapper\test_files\tin_related\xsection4.csv" 
     dtmFile = r"isis\isismapper\test_files\tin_related\dtm_pilot_taipei.asc" 
     timeSnaps = "1" 
-    outFile = r"isis\isismapper\test_files\tin_related\depth.asc"
-    output = GenerateFloodMap(tinFile, csvFile, dtmFile, timeSnaps, outFile)
+    outGridFile = r"isis\isismapper\test_files\tin_related\depth.asc"
+    output = GenerateFloodMap(shpXsection, xSectionFile, csvInflows, flowTag, csvFlowFile, tinFile, csvDepthFile, dtmFile, timeSnaps, outGridFile)
     print(output)
 

@@ -1,4 +1,7 @@
-import os
-
-out = os.path.splitext(r"C:\temp\ISISMapper\FloodMaps\output_depth_TS1.asc")[0]
-print(out)
+def CalculateSlope(shpXsection):
+    """NB: Input shape file must be of cross section type shape file"""
+    try:
+        args = '-calculateslope  /i: ',shpXsection
+        subprocess.call([isisMapper,args],shell=True)
+    except ValueError as e: print(e)
+    return csvDepthOutput
